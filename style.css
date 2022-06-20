@@ -1,6 +1,37 @@
 body{
-  background: linear-gradient(to bottom right, rgb(255, 154, 210), rgb(154, 233, 255));
-  background-repeat: no-repeat;
+  background: black;
 
-  
+}
+
+h1{
+  color: aliceblue;
+}
+
+.lin{
+  width: 100%;
+}
+
+.antwortBox{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 60px;
+  left: 15%;
+  color: rgb(6, 22, 35);
+  border: 4px rgb(255, 196, 0) solid ;
+  background-color: rgba(240, 248, 255, 0.559);
+}
+
+.antwortBox div{
+  padding: 10px;
+}
+
+.merlin{
+  color: aliceblue;
+  position: fixed;
+  bottom: 250px;
+  left: 22%;
+  background-color: black;
+  border-radius: 15px;
 }

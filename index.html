@@ -11,23 +11,39 @@
 <h1>Wilkommen im Hexen Laden</h1>
 <label for="name"></label>
 <body>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto et voluptate ut quibusdam quasi perferendis ex ipsam porro! Quia, nemo ab? Quos repudiandae labore asperiores dignissimos unde perspiciatis enim!</p>
+  <div>
+    <img class="lin" src="./bilder/lin_neutral.jpg" alt="Bild von Merlin mit neutraler Stimmung">
+  </div>
 
+<!--Merlins Text-->
+<div class="merlin">
+  <p>
+    ???:"Guten Tag, Willkommen im Hexen Laden 'Amahara' kann ich dir behilflich sein?"
+  </p>
+</div>
+
+<!--Antworten Box-->
   <form action="">
-    <div>
-      <input type="radio" id="positive" name="choice" value="positive">
-      <label for="positive">positive Antwort</label><br>
+    <div class="antwortBox">
+      <div>
+        <input type="radio" id="positive" name="choice" value="positive">
+        <label for="positive">Ein Freund hat mir diesen Laden empfohlen. Er hat gesagt, hier gibt es jemanden der in die Zukunft sehen kann, bist das du?</label>
+      </div>
 
-      <input type="radio" id="neutral" name="choice" value="neutral">
-      <label for="neutral">neutrale Antwort</label><br>
+      <div>
+        <input type="radio" id="neutral" name="choice" value="neutral">
+        <label for="neutral">Ich bin mir nicht sicher.</label>
+      </div>
 
-      <input type="radio" id="negative" name="choice" value="negative">
-      <label for="negative">negative Antwort</label>
-    </div>
+      <div>
+        <input type="radio" id="negative" name="choice" value="negative">
+        <label for="negative">Ein Freund meinte hier gibt es eine Magierin die in die Zukunft gucken kann. Wo ich das jetzt hier alles sehe, halte ich es für Blödsinn.</label>
+      </div>
 
-    <div>
-      <button id="answer" type="submit">Antworten</button>
-    </div>
+      <div>
+        <button id="answer" type="submit">Antworten</button>
+      </div>
+  </div>
   </form>
 
  <script src="./index.js"></script>
