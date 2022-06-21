@@ -36,12 +36,10 @@ function createTexts(){
     {question: "Oh, Hallo. Willkommen im Hexen Laden 'Amahara'. Kann ich dir irgendwie weiterhelfen?"},
     {question: "Lass es mich wissen, wenn ich dir weiter helfen kann."},
     {question: "Verrätst du mir noch wie du heißt?"},
-    {question: "gespräch4"},
-    {question: "gespräch5"},
-    {question: "gespräch6"},
-    {question: "gespräch7"},
-    {question: "gespräch8"},
-    {question: "gespräch9"},
+    {question: "Hmm.... Interessant."},
+    {question: "In deinen Karten sehe ich das dir ein Neuanfang bevor steht, mit neuen, unbekannten Ängsten."},
+    {question: `Interessierst du dich nur fürs Karten legen oder generel für Magie und Hexerei,${player.name}?`},
+    {question: "Also wenn du möchtest, kann ich dir gerne mehr über Hexerei und Magie erzählen."},
   ]
   
   
@@ -60,12 +58,22 @@ function createTexts(){
     antwortNeu: `Ich heiße ${player.name}. Und wie heißt du?`,
     antwortNegativ: `Ich heiße ${player.name}, dachte du kannst sowas 'sehen'. Und wie heißt du?`},
 
-    {antwortPos: "pos4", antwortNeu: "neu4",antwortNegativ: "neg4"},
-    {antwortPos: "pos5", antwortNeu: "neu5",antwortNegativ: "neg5"},
-    {antwortPos: "pos6", antwortNeu: "neu6",antwortNegativ: "neg6"},
-    {antwortPos: "pos7", antwortNeu: "neu7",antwortNegativ: "neg7"},
-    {antwortPos: "pos8", antwortNeu: "neu8",antwortNegativ: "neg8"},
-    {antwortPos: "pos9", antwortNeu: "neu9",antwortNegativ: "neg9"},
+    {antwortPos: "Kannst du was sehen? Ich hoffe es ist nichts schlimmes?", 
+    antwortNeu: "Was ist interessant?",
+    antwortNegativ: "Weißt du, eigentlich interessiert mich sowas ja gar nicht, ich bin nur wegen dir hier."},
+
+    {antwortPos: "Kannst du mir das bitte genauer erklären?", 
+    antwortNeu: "Und was soll das genau heißen?",
+    antwortNegativ: "Woooow, was für eien krasse Vorhersage."},
+
+    {antwortPos: "Ich interessiere mich total dafür! Ich wünschte sowas gäbe es wirklich!", 
+    antwortNeu: "Ich find es ganz cool. Find das in Filmen udn Spielen immer ganz interessant.",
+    antwortNegativ: "Quatsch. Sowas gibts doch nicht. Das haben sich Leute nur für Kinder ausgedacht oder um Leuten das Geld aus der Tasche zu ziehen."},
+
+    {antwortPos: "Was wirklich? Klar gerne!",
+     antwortNeu: "Wieso nicht, hast du Bücher darüber oder sowas?",
+     antwortNegativ: "Na klar, erähl mir von deiner möchtegern Magie."},
+
   ]
   
   //Merlins reaktionen
@@ -78,13 +86,26 @@ function createTexts(){
     antwortNeu: "Gerne doch.",
     antwortNegativ: "...wieso nicht."},
     
-    {antwortPos: "pos3", antwortNeu: "neu3",antwortNegativ: "neg3"},
-    {antwortPos: "pos4", antwortNeu: "neu4",antwortNegativ: "neg4"},
-    {antwortPos: "pos5", antwortNeu: "neu5",antwortNegativ: "neg5"},
-    {antwortPos: "pos6", antwortNeu: "neu6",antwortNegativ: "neg6"},
-    {antwortPos: "pos7", antwortNeu: "neu7",antwortNegativ: "neg7"},
-    {antwortPos: "pos8", antwortNeu: "neu8",antwortNegativ: "neg8"},
-    {antwortPos: "pos9", antwortNeu: "neu9",antwortNegativ: "neg9"},
+    {antwortPos: "Ich heiße Merlin, freut mich ebenso.",
+     antwortNeu: "Ich heiße Merlin.",
+     antwortNegativ: "Ich kann zumindest sehen, ohne dir die Karten legen zu müssen, dass deine Zukunft sicher nicht rosig aussehen wird. Du kannst mich Merlin nennen."},
+
+    {antwortPos: "Nein, mach dir keine Sorgen!", 
+    antwortNeu: "Deine Karten, mach dir keine Sorgen, ist nichts schlimmes.",
+    antwortNegativ: "Tja, also ich kann dir nur mit den Karten dienen."},
+
+    {antwortPos: "Wenn du.... standhaft bleibst, wird alles gut.~",
+     antwortNeu: "Das heißt, wenn du standhaft bleibst, wird alles gut.",
+     antwortNegativ: "Weißt du, hier steht eigentlich, das alles gut wird, wenn du nur standhaft bleibst. Solangsam glaube ich aber das sich die Karten da irren..."},
+
+    {antwortPos: "Mir geht es genau so! Ich hab mich shcon als kleines Kind für Okkulte Sachen interessiert!",
+     antwortNeu: "Ah, verstehe. Geht mir ähnlich. Ich mochte es in Harry Potter sehr.",
+     antwortNegativ: "Ist das so?"},
+
+    {antwortPos: "Wie wäre es wenn ich dir bei einem Date mehr davon erzähle?~",
+     antwortNeu: "Hier hast du einpaar Broschüren, ich wünsche dir noch einen schönen Tag!",
+     antwortNegativ: "Wie wäre es, wnen ich dir meine Hexerei am eigenen Leib präsentiere?"},
+    
   ]
   
   reactionImgs = {antwortPos: "/imgPos.jpg", antwortNeu: "/imgNeutral.jpg",antwortNegativ: "/imgNeg.jpg"}
