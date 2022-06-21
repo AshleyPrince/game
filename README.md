@@ -11,9 +11,11 @@
 
 3. Funktion neue Antowrtmöglichkeiten für Spieler(erleidigt)
 
-4. Antworten auswerten
+4. Bilder den Reaktionen von Merlin anpassen 
 
-5. Bildschirm für Ende
+5. Antworten auswerten 
+
+6. Bildschirm für Ende
 
 ##
 Spiel Ablauf:

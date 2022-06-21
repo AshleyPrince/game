@@ -108,7 +108,7 @@ function createTexts(){
     
   ]
   
-  reactionImgs = {antwortPos: "/imgPos.jpg", antwortNeu: "/imgNeutral.jpg",antwortNegativ: "/imgNeg.jpg"}
+  reactionImgs = {antwortPos: "/b", antwortNeu: "/imgNeutral.jpg",antwortNegativ: "/imgNeg.jpg"}
 }
 
 
