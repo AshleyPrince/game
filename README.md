@@ -4,12 +4,12 @@
 
 1. Spieler Konstruktion --> Name --> Startbildschirm
 
-2.a) Funktion Merlin neuer Text
+2.a) Funktion Merlin neuer Text(erleidigt)
 
-2 b) weiter Auffangen von Merlins weiter
+2 b) weiter Auffangen von Merlins weiter(erledigt)
 
 
-3. Funktion neue Antowrtmöglichkeiten für Spieler
+3. Funktion neue Antowrtmöglichkeiten für Spieler(erleidigt)
 
 4. Antworten auswerten
 
