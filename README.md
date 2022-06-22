@@ -2,7 +2,7 @@
 
 ## To Do
 
-1. Spieler Konstruktion --> Name --> Startbildschirm
+1. Spieler Konstruktion --> Name --> Startbildschirm(erleidigt)
 
 2.a) Funktion Merlin neuer Text(erleidigt)
 
@@ -11,7 +11,7 @@
 
 3. Funktion neue Antowrtmöglichkeiten für Spieler(erleidigt)
 
-4. Bilder den Reaktionen von Merlin anpassen 
+4. Bilder den Reaktionen von Merlin anpassen (erleidigt)
 
 5. Antworten auswerten 
 
