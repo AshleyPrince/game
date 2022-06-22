@@ -2,7 +2,7 @@
 
 const player = {
   name: "",
-  points: 100,
+  points: 110,
   round: 0,
 } 
 
@@ -26,9 +26,13 @@ let reactionImgs = []
 
 
 //Funktion die die Elemente Sichtbar macht
-
 function makeVisible(element){
-element.classList.remove('notvisible')
+  element.classList.remove('notvisible')
+}
+
+//Funktion die die Elemente Unsichtbar macht
+function makeUnvisible(element){
+  element.classList.add('notvisible')
 }
 
 //funktion die Merlisn Reationen je nach Emotion ändert
@@ -41,10 +45,17 @@ function changePicture(emotion){
     merlinImgs.src='./bilder/lin_wink.jpg'
   }else if(emotion === 'karten'){
     merlinImgs.src='./bilder/lin.jpg'
+  }else if(emotion === 'bad_end'){
+    merlinImgs.src='./bilder/bad_end.jpg'
+  }else if(emotion === 'happy_end'){
+    merlinImgs.src='./bilder/happyend.jpg'
+  }else if(emotion === 'neutral_end'){
+    merlinImgs.src='./bilder/neutral_end.jpg'
   }else{
     merlinImgs.src='./bilder/lin_neutral.jpg'
   }
 }
+
 
 //START DES SPIELS
 //Spieler Name wird eingefügt und Spiel wird gestartet(beginnt mit erster Text)
@@ -143,19 +154,33 @@ function createTexts(){
 
 
 // Punke Sytem
-let positive = 5;
+let positive = 10;
 let neutral = 0;
-let negative = -5;
+let negative = -15;
 
-//Merlins Text Reaktionen
+//Merlins Text Reaktionen (Runde 4 bei positiver antwort, spezielles Bild)
 function showReaction(antwort, round){
-  console.log("Reaction suchen")
-  changePicture(antwort)
-  merlinText.innerHTML = reactions[round][antwort]
-  antwortBox.innerHTML = `
-    <button class="antwortBtn" onclick="newQuestion()">
-    weiter
-    </button>`
+
+  if(player.round == 6){//Zeigt Ende bei runde 6 nach spieler antwort
+    endResultat(player)
+    makeUnvisible(sprechblase)
+    makeUnvisible(playerNameDiv)
+  }else if(player.round == 4 && antwort === 'antwortPos'){
+    changePicture('wink')
+  }else{
+    changePicture(antwort)  
+  }
+  
+  if(player.round == 6){
+    antwortBox.innerHTML = `Das Spiel ist zu ende`
+  }else{
+    merlinText.innerHTML = reactions[round][antwort]
+    antwortBox.innerHTML = `
+      <button class="antwortBtn" onclick="newQuestion()">
+      weiter
+      </button>`
+  }
+
 }
 
 //Merlins Reaktion
@@ -171,16 +196,23 @@ function next (antwort){
   } else if ("antwortNegativ" === antwort){
     player.points += negative;
   } 
-
-  showReaction(antwort, player.round) 
-  player.round++
+  // runde 6 bedeutet, dass das SPiel zu ende ist und das Resultat ausgewertet werden muss
+    console.log(player.points)
+    showReaction(antwort, player.round) 
+    player.round++
+  
+  
 }
 
 
 
-//Antwortmöglichkeiten des Spielers
+//Antwortmöglichkeiten des Spielers(Bei runde 3 spezielles Bild)
 function newQuestion(){
-  changePicture()
+  if(player.round == 3){
+    changePicture("karten")
+  }else{
+    changePicture()
+  }
   let currentQuestions=[
     `<button class="antwortBtn" onclick="checkAnswer(this)">
   ${answer[player.round].antwortPos}
@@ -199,26 +231,35 @@ function newQuestion(){
 
 //Setzt die Fragen in eine random Reihnfolge
   for( let i = 0; i<3; i++){
-    let x = Math.floor(Math.random() * (usedAnswer.length - 1)) 
+    //console.log(Math.random()*3)
+    let x = Math.floor(Math.random() * (usedAnswer.length)) 
     antwortBox.innerHTML += currentQuestions[usedAnswer[x]]
     usedAnswer.splice(x,1)
   }
+
 }
 
 //funktion die schaut was der Spieler geantwortet hat
 function checkAnswer(e){
   let currentAnswer = e.innerText
-  console.log('Unsere Antwort: ',currentAnswer);
+
   //Check if neutral or pos ...
   //such den Value und sag mir den key
   for (const elem in answer[player.round]){
-    console.log(player.round)
-    console.log(answer[player.round])
      if(answer[player.round][elem] === currentAnswer ){
       next(elem)
     }
   }
 }
 
+//Ende des Spiels(End Bild)
 
-
+function endResultat(player){
+  if (player.points <= 60 ) {
+    changePicture("bad_end")
+  }else if(player.points >= 130 ){
+    changePicture("happy_end")
+  }else{
+    changePicture("neutral_end")
+  }
+}
