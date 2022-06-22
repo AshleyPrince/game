@@ -7,43 +7,39 @@
   <title>Game</title>
   <link rel="stylesheet" href="./style.css">
 </head>
-<h1>Willkommen im Hexen Laden</h1>
+
+
 <label for="name"></label>
 <body>
-  <div>
-    <img class="lin" src="./bilder/lin_neutral.jpg" alt="Bild von Merlin mit neutraler Stimmung">
+  <div><!--Bild des Spiels-->
+    <img class="lin" src="./bilder/witch_shop.jpg" alt="Bild von Merlin mit neutraler Stimmung">
   </div>
 
-<!--Merlins Text-->
-<div class="sprechblase" >
-  <p class="merlin">
+  <!--Merlins Text und ihre Sprechblase-->
+  <div class="sprechblase notvisible" >
+    <p class="merlin">
+      <!--Merlins Texte im Javascript-->
+    </p>
+  </div>
 
+
+  <div><!--Spieler Name-->
+  <p class="spielerName notvisible">
+    <!--Name in Javascript-->
   </p>
-    <!--Merlins Texte im Javascript-->
-</div>
+  </div>
 
-
-<div>
-<p class="spielerName">
-  <!--Name in Javascript-->
-</p>
-</div>
-<!--Antworten Box-->
- <!-- <form id='form' action=""> -->
-    <div class="antwortBox">
-
-  <!--Antwortboxen des Spielers im Javascript-->
-
-     <div>
-      <label for="input_SpielerName">Spieler Name</label>
-      <input id="input_SpielerName" type="text">
-        <button id="answer" >Spielstart</button>
-      </div>
+  <!--Antworten Box des Spielers-->
+  <div class="antwortBox"> <!--Antwortboxen des Spielers im Javascript-->
+    <div>
+    <label for="input_SpielerName">Spieler Name</label>
+    <input id="input_SpielerName" type="text">
+      <button id="answer" >Spielstart</button>
     </div>
+  </div>
 
  
- <!-- </form>-->
+  <script src="./index.js"></script>
 
- <script src="./index.js"></script>
 </body>
 </html>
