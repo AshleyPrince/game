@@ -1,45 +1,50 @@
-# game
+# Dating Sim "Witch"
 
 ## To Do
 
-1. Spieler Konstruktion --> Name --> Startbildschirm(erleidigt)
+[x]1. Spieler Konstruktion --> Name --> Startbildschirm
 
-2.a) Funktion Merlin neuer Text(erleidigt)
+[x]2 a) Texte für Melrin hinzufügen
 
-2 b) weiter Auffangen von Merlins weiter(erledigt)
+[x]2 b) Spieler Antwortmöglichkeiten hinzufügen
+
+[x]2 c) Reaktionen für Merlin hinzufügen
+
+[x]3. Funktion neue Antowortmöglichkeiten für Spieler
+
+[x]4. Bilder von Merlins  Reaktionen anhand der Spieler Antworten anpassen 
+
+[x]5. Antworten auswerten 
+
+[x]6. Bildschirm für Ende mit passendem Ergebnis
+
+[ ]7. Spiel über CSS aufhübschen
+
+[ ]8. End-Zenario Bilder einfügen
 
 
-3. Funktion neue Antowrtmöglichkeiten für Spieler(erleidigt)
+##
 
-4. Bilder den Reaktionen von Merlin anpassen (erleidigt)
+## Punkte System
+Spieler hat bei beginn 110 Punkte.
 
-5. Antworten auswerten 
+positive Antwort: +10
+neutrale Antwort:  0
+negative Antwort: -15
 
-6. Bildschirm für Ende
+Max Punkte: 180
+Min Punkte: 5
 
 ##
 Spiel Ablauf:
 
-Spieler Name eingeben(Bild vom Laden)
+Spieler Name eingeben(Startbildschirm)
 
-Spieler ist IM laden(Bild von Merlin)
--Merlin begrüßt Spieler
-->Spieler kann unmittelbar antworten(es gibt immer eine positive, negative und neutrale möglichkeit)
+sobald Spieler einen Namen eingegeben hat
+:point_right: Spieler ist im Laden(Bild von Merlin)
 
--Merlin reagiert positiv,neutral oder negativ
-->Spieler kann auf Weiter klicken
+danach folgen 7 Rundenbestehend aus
+Merlin sagt etwas und der Spieler kann mit einer von drei Antworten reagieren.
+darauf folgt eien reaktion, je nach demob die Antwort des Spielers gut, schlecht oder neutral war.
 
--Merlin sagt etwas
-->Spieler kann unmittelbar amtworten
-
--Merlin reagoiert wieder(alles wiederholt sich)
-
-Ende:
-Punkanzahl soll zusammen gerechnet werden
-(Negative antworten ziehen punkte ab, positive antworten addieren Punkte und beu neutralen passiert nichts)
-
-Nach ablauf der Runden passiert folgendes(gerechnet wird erstmal mit 20 runden, Spieler startet mit 100 Punkten):
-
-Negativ Ende: text plus Bild(0-100 Punkte)
-Neutral Ende: text plus Bild(105-145 Punkte)
-Positiv Ende: text plus bild(150-200 Punkte)
+Am ende bekommt man je nach Punktzahl ein spezielles End-Szenario
