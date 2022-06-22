@@ -2,30 +2,34 @@
 
 ## To Do
 
-[x]1. Spieler Konstruktion --> Name --> Startbildschirm
+- [x]1. Spieler Konstruktion --> Name --> Startbildschirm
 
-[x]2 a) Texte für Melrin hinzufügen
+- [x]2 a) Texte für Melrin hinzufügen
 
-[x]2 b) Spieler Antwortmöglichkeiten hinzufügen
+- [x]2 b) Spieler Antwortmöglichkeiten hinzufügen
 
-[x]2 c) Reaktionen für Merlin hinzufügen
+- [x]2 c) Reaktionen für Merlin hinzufügen
 
-[x]3. Funktion neue Antowortmöglichkeiten für Spieler
+- [x]3. Funktion neue Antowortmöglichkeiten für Spieler
 
-[x]4. Bilder von Merlins  Reaktionen anhand der Spieler Antworten anpassen 
+- [x]4. Bilder von Merlins  Reaktionen anhand der Spieler Antworten anpassen 
 
-[x]5. Antworten auswerten 
+- [x]5. Antworten auswerten 
 
-[x]6. Bildschirm für Ende mit passendem Ergebnis
+- [x]6. Bildschirm für Ende mit passendem Ergebnis
 
-[ ]7. Spiel über CSS aufhübschen
+- [ ]7. Spiel über CSS aufhübschen
 
-[ ]8. End-Zenario Bilder einfügen
+- [ ]8. Start Bildschirm hinzufügen
+
+- [ ]9. End-Zenario Bilder einfügen
+
+- [ ]10. Audio hinzufügen
 
 
 ##
 
-## Punkte System
+# Punkte System:
 Spieler hat bei beginn 110 Punkte.
 
 positive Antwort: +10
@@ -36,7 +40,8 @@ Max Punkte: 180
 Min Punkte: 5
 
 ##
-Spiel Ablauf:
+
+# Spiel Ablauf:
 
 Spieler Name eingeben(Startbildschirm)
 
