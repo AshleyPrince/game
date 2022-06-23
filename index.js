@@ -18,6 +18,9 @@ const merlinText = document.querySelector('.merlin');
 
 const playerNameDiv = document.querySelector('.spielerName');
 
+const klickSound = new Audio("/sounds/click.wav");
+
+const klickSoundAnswer = new Audio("/sounds/click_answer.wav")
 
 let merlin = []
 let answer = []
@@ -60,6 +63,7 @@ function changePicture(emotion){
 //START DES SPIELS
 //Spieler Name wird eingefügt und Spiel wird gestartet(beginnt mit erster Text)
 document.getElementById("answer").onclick = () => {
+  klickSound.play();
   player.name = document.getElementById("input_SpielerName").value
 
   if (player.name.length >= 2){
@@ -242,6 +246,7 @@ function newQuestion(){
 //funktion die schaut was der Spieler geantwortet hat
 function checkAnswer(e){
   let currentAnswer = e.innerText
+  klickSoundAnswer.play();
 
   //Check if neutral or pos ...
   //such den Value und sag mir den key
