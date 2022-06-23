@@ -14,8 +14,8 @@ body{
 .blueButterfly{
   width: 150px;
   position: absolute;
-  right: 320px;
-  bottom: 100px;
+  right: 238px;
+  bottom: -22px;
   pointer-events: none;
 }
 
