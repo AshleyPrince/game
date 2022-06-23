@@ -73,6 +73,10 @@ body{
   position: relative;
 }
 
+.game-wrapper{
+  position: relative;
+}
+
 
 /*Bild des Spieles*/
 .lin{
@@ -145,7 +149,7 @@ body{
   height: 200px;
   position: absolute;
   top: 50px;
-  right: 25%;
+  right: 5%;
   margin-left: 34px;
   border-radius: 10px;
   background: #000000;
