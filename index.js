@@ -18,9 +18,9 @@ const merlinText = document.querySelector('.merlin');
 
 const playerNameDiv = document.querySelector('.spielerName');
 
-const klickSound = new Audio("/sounds/click.wav");
+const klickSound = new Audio("./sounds/click.wav");
 
-const klickSoundAnswer = new Audio("/sounds/click_answer.wav")
+const klickSoundAnswer = new Audio("./sounds/click_answer.wav")
 
 let merlin = []
 let answer = []
