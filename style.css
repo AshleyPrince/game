@@ -146,7 +146,7 @@ body{
 
 .sprechblase {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
   position: absolute;
   top: 50px;
   right: 5%;

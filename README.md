@@ -18,13 +18,13 @@
 
 - [x] 6. Bildschirm für Ende mit passendem Ergebnis
 
-- [ ] 7. Spiel über CSS aufhübschen
+- [x] 7. Spiel über CSS aufhübschen
 
-- [ ] 8. Start Bildschirm hinzufügen
+- [x] 8. Start Bildschirm hinzufügen
 
 - [ ] 9. End-Zenario Bilder einfügen
 
-- [ ] 10. Audio hinzufügen
+- [x] 10. Audio hinzufügen
 
 - [ ] 11. Texte korrigieren
 
