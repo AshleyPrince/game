@@ -110,7 +110,7 @@ function createTexts(){
   answer=[
     /*1*/{antwortPos: "Ein Freund hat mir diesen Laden empfohlen. Er hat gesagt es würde hier jemanden geben, der in die Zukunft sehen kann.", 
     antwortNeu: "Ich bin mir nicht sicher...",
-    antwortNegativ: "Ein Freund meinte hier gibt es eine Magierin die in die Zukunft gucken kann, ist das aber nicht Blödsinn?"},
+    antwortNegativ: "Ein Freund meinte hier gibt es eine Magierin die in die Zukunft gucken kann?"},
     
     /*2*/{antwortPos: "Also wenn du mir sagen könntest, was mich in naher Zukunft erwarten wird, wäre das echt cool! Ich finde sowas super spannend!", 
     antwortNeu: "Kannst du bitte eine Vorhersage für mich machen?",
@@ -130,10 +130,10 @@ function createTexts(){
 
     /*6*/{antwortPos: "Ja, ich finde Vampire total cool!", 
     antwortNeu: "Ich finde Werwölfe ziemlich cool.",
-    antwortNegativ: "Nein, eigentlich nicht. Hätte mein Kumpel mir den Laden nicht empfohlen, wäre ich nicht hier"},
+    antwortNegativ: "Nein, eigentlich nicht. Hätte mein Kumpel mir den Laden nicht empfohlen, wäre ich nicht hier."},
 
     /*7*/{antwortPos: "Sei bitte ehrlich, bist du wirklich eine Hexe?", 
-    antwortNeu: "Warum bist du eigentlich so…extrem weiß? Ist das deine Naturhaarfarbe?",
+    antwortNeu: "Warum bist du eigentlich so …extrem weiß? Ist das deine Naturhaarfarbe?",
     antwortNegativ: "Was ist das Ding mit den Schmetterlingen hier?"},
 
     /*8*/{antwortPos: "Oh sorry, ich wollte nicht unhöflich sein! Aber das ist alles ziemlich spannend! Kannst du mir mehr über dich erzählen?", 
@@ -166,18 +166,18 @@ function createTexts(){
     
     /*3*/{antwortPos: "Ich heiße Merlin, freut mich ebenso.",
      antwortNeu: "Ich heiße Merlin.",
-     antwortNegativ: "Ich kann zumindest sehen, ohne dir die Karten legen zu müssen, dass deine Zukunft sicher nicht rosig aussehen wird. ....Aber du kannst mich Merlin nennen."},
+     antwortNegativ: "Ich kann zumindest sehen, ohne dir die Karten legen zu müssen, dass deine Zukunft sicher nicht rosig aussehen wird ...Aber du kannst mich Merlin nennen."},
 
     /*4*/{antwortPos: "Nein, mach dir keine Sorgen!", 
     antwortNeu: "Deine Karten sind interessant. Mach dir keine Sorgen, ist nichts schlimmes.",
     antwortNegativ: "Tja, also ich kann dir nur mit den Karten dienen."},
 
-    /*5*/{antwortPos: "Es bedeutet, wenn du.... standhaft bleibst, wird alles gut.~",
-     antwortNeu: "Es heißt so viel wie, wenn du standhaft bleibst, wird alles gut.",
-     antwortNegativ: "Weißt du, hier steht eigentlich, das alles gut wird, wenn du nur standhaft bleibst. Solangsam glaube ich aber das sich die Karten da irren..."},
+    /*5*/{antwortPos: "Es bedeutet, wenn du... standhaft bleibst, wird alles gut.~",
+     antwortNeu: "Es heißt so viel wie: wenn du standhaft bleibst, wird alles gut.",
+     antwortNegativ: "Weißt du, hier steht eigentlich, das alles gut wird, wenn du nur standhaft bleibst. Solangsam glaube ich aber, dass sich die Karten da irren..."},
 
      /*6*/{antwortPos: "Vampire also? Ja die… mag ich auch. Auch wenn sie ziemlich gefährlich sein können. Aber große Macht ist nun mal auch immer gefährlich. Zumindest in den Falschen Händen.",
-     antwortNeu: "Werwölfe sind cool, das stimmt. Leider greifen die mich an sobald sie auch nur Sichtkontakt bekommen. Die scheinen meine Sippe nicht sonderlich zu mögen.",
+     antwortNeu: "Werwölfe sind cool, das stimmt. Leider greifen die mich an, sobald ich auch nur in ihre Sichtweite komme. Die scheinen meine Sippe nicht sonderlich zu mögen.",
      antwortNegativ: "Na zumindest hat dein Kumpel einen guten Geschmack."},
 
      /*7*/{antwortPos: "Ja und nein. Ich bin ein Vampir. Darum hat der Laden hier auch nur nachts geöffnet. Aber ich bin als Hexe geboren worden. Und lange bevor ich in einen Vampir verwandelt wurde, konnte ich schon zaubern. Ich bin also irgendwie beides.",
@@ -189,15 +189,14 @@ function createTexts(){
      antwortNegativ: "Das wüsstest du wohl gern! Ich verrate dir so viel: Alles was ein Vampir kann, kann ich auch. "},
 
      /*9*/{antwortPos: "Um die 70 glaube ich. Und ja tatsächlich kenne ich alle. Wir treffen uns ab und an. In größeren Städten wie dieser hier, gibt es eine klare Hierarchi und regeln bei uns Vampiren.",
-     antwortNeu: "Es ist streng genommen verboten einen Menschen zu töten also mach dir keine Sorgen. Viele kaufen sich Blut im Krankenhaus. Die, die kein Geld für sowas haben gehen in Clubs, verführen Menschen und trinken dann beim rummachen ein paar schlucke. Aber nie so viel das es auffällt.",
-     antwortNegativ: "Was genau meinst du mit 'wie ich'? Wir sind genau so individuell wie ihr Menschen. Aber ich gehöre definitiv zu den…freundlicheren."},
+     antwortNeu: "Es ist streng genommen verboten einen Menschen zu töten, also mach dir keine Sorgen. Viele kaufen sich Blut im Krankenhaus. Die, die kein Geld für sowas haben gehen in Clubs, verführen Menschen und trinken dann beim rummachen ein paar Schlucke. Aber nie so viel das es auffällt.",
+     antwortNegativ: "Was genau meinst du mit 'wie ich'? Wir sind genau so individuell wie ihr Menschen. Aber ich gehöre definitiv zu den …freundlicheren."},
 
      /*10*/{antwortPos: "Nein. Die überaus meisten Hexen und Magier verstecken sich vor Vampiren. Es gibt einige die mich noch aus meiner sterblichen Zeit kennen. Aber mittlerweile habe ich mehr mit Vampiren zu tun.",
      antwortNeu: "In gewisser Weise ja. Manche haben dafür mehr Talent als andere. Aber wenn man sich wirklich reinkniet, kann man auf jeden Fall zaubern lernen.",
      antwortNegativ: "NIEMAND findet Hexerei öde! Im Gegensatz zu Menschen könne nicht alle Vampire Magie wirken. Und Vampire sind da wie Menschen: Was sie nicht können und verstehe finden sie meistens gruselig."},
 
-
-    /*11*/{antwortPos: "Wie wäre es wenn ich dir bei einem Date mehr davon erzähle?~",
+    /*11*/{antwortPos: "Wie wäre es, wenn ich dir bei einem Date mehr davon erzähle?~",
      antwortNeu: "Hier hast du einpaar Broschüren, ich wünsche dir noch einen schönen Tag!",
      antwortNegativ: "Wie wäre es, wenn ich dir meine Hexerei am eigenen Leib präsentiere?"},
     ]
@@ -205,7 +204,7 @@ function createTexts(){
 
 
 // Punke Sytem
-let positive = 5;
+let positive = 10;
 let neutral = 0;
 let negative = -10;
 
@@ -304,9 +303,9 @@ function checkAnswer(e){
 //Ende des Spiels(End Bild)
 
 function endResultat(player){
-  if (player.points <= 50 ) {
+  if (player.points <= 70 ) {
     changePicture("bad_end")
-  }else if(player.points >= 145 ){
+  }else if(player.points >= 150 ){
     changePicture("happy_end")
   }else{
     changePicture("neutral_end")

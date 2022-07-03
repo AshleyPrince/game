@@ -26,7 +26,7 @@
 
 - [x] 10. Audio hinzufügen
 
-- [ ] 11. Texte korrigieren
+- [x] 11. Texte korrigieren
 
 
 ##
