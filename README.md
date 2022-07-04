@@ -22,7 +22,7 @@
 
 - [x] 8. Start Bildschirm hinzufügen
 
-- [ ] 9. End-Zenario Bilder einfügen
+- [x] 9. End-Zenario Bilder einfügen
 
 - [x] 10. Audio hinzufügen
 

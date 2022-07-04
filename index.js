@@ -126,7 +126,7 @@ function createTexts(){
 
     /*5*/{antwortPos: "Kannst du mir das bitte genauer erklären?", 
     antwortNeu: "Und was soll das genau heißen?",
-    antwortNegativ: "Woooow, was für eien krasse Vorhersage."},
+    antwortNegativ: "Woooow, was für eine krasse Vorhersage."},
 
     /*6*/{antwortPos: "Ja, ich finde Vampire total cool!", 
     antwortNeu: "Ich finde Werwölfe ziemlich cool.",
